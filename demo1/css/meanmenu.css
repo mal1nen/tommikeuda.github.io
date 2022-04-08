@@ -69,7 +69,7 @@
      width: 90%;
 }
  .mean-container .mean-nav ul li a:hover {
-     color: #38c8a8;
+     color: #008000;
 }
  .mean-container .mean-nav ul li li a {
      width: 80%;
@@ -82,7 +82,7 @@
      visibility: visible;
 }
  .mean-container .mean-nav ul li.mean-last a {
-     border-bottom: 1px solid #cccccc;
+     border-bottom: 1px solid #008000;
      margin-bottom: 0;
 }
  .mean-container .mean-nav ul li li li a {
@@ -98,8 +98,8 @@
      padding: 1em 25%;
 }
  .mean-container .mean-nav ul li a:hover {
-     ` background: #252525;
-     background: rgba(255, 255, 255, 0.1);
+     ` background: #008000;
+     background: #008000;
 }
  .mean-container .mean-nav ul li a.mean-expand {
      background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
