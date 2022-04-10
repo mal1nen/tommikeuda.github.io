@@ -152,8 +152,8 @@ a,
 }
 
 img {
-     max-width: 100px;
-     height: auto;
+     max-width: 90px;
+     height: 80px;
 }
 
  :focus {
