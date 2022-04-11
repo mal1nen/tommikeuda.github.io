@@ -1142,17 +1142,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-black{
   --tw-bg-opacity: 1;
-  background-color: rgb(33 43 54 / var(--tw-bg-opacity));
+  background-color: rgb(0 128 26 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#f3f4fe\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 254 / var(--tw-bg-opacity));
+  background-color: rgb(0 128 26 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#13C296\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(19 194 150 / var(--tw-bg-opacity));
+  background-color: rgb(0 128 26 / var(--tw-bg-opacity));
 }
 
 .bg-secondary{
