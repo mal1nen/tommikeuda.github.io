@@ -2013,72 +2013,62 @@
             </div>
           </div>
         </div>
-        <div>
-        .container {
-          display: block;
-          position: relative;
-          padding-left: 35px;
-          margin-bottom: 12px;
-          cursor: pointer;
-          font-size: 22px;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
-        }
-        
-        /* Hide the browser's default radio button */
-        .container input {
-          position: absolute;
-          opacity: 0;
-          cursor: pointer;
-          height: 0;
-          width: 0;
-        }
-        
-        /* Create a custom radio button */
-        .checkmark {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 25px;
-          width: 25px;
-          background-color: #eee;
-          border-radius: 50%;
-        }
-        
-        /* On mouse-over, add a grey background color */
-        .container:hover input ~ .checkmark {
-          background-color: #ccc;
-        }
-        
-        /* When the radio button is checked, add a blue background */
-        .container input:checked ~ .checkmark {
-          background-color: #2196F3;
-        }
-        
-        /* Create the indicator (the dot/circle - hidden when not checked) */
-        .checkmark:after {
-          content: "";
-          position: absolute;
-          display: none;
-        }
-        
-        /* Show the indicator (dot/circle) when checked */
-        .container input:checked ~ .checkmark:after {
-          display: block;
-        }
-        
-        /* Style the indicator (dot/circle) */
-        .container .checkmark:after {
-          top: 9px;
-          left: 9px;
-          width: 8px;
-          height: 8px;
-          border-radius: 50%;
-          background: white;
-        }
-      </div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Radio Button</title>
+</head>
+<body>
+    <p>Select your size:</p>
+    <div>
+        <input type="radio" name="size" value="XS" id="xs">
+        <label for="xs">XS</label>
+    </div>
+    <div>
+        <input type="radio" name="size" value="S" id="s">
+        <label for="s">S</label>
+    </div>
+    <div>
+        <input type="radio" name="size" value="M" id="m">
+        <label for="m">M</label>
+    </div>
+    <div>
+        <input type="radio" name="size" value="L" id="l">
+        <label for="l">L</label>
+    </div>
+    <div>
+        <input type="radio" name="size" value="XL" id="xl">
+        <label for="xl">XL</label>
+    </div>
+    <div>
+        <input type="radio" name="size" value="XXL" id="xxl">
+        <label for="xxl">XXL</label>
+    </div>
+    <p>
+        <button id="btn">Show Selected Value</button>
+    </p>
+
+    <p id="output"></p>
+
+    <script>
+        const btn = document.querySelector('#btn');        
+        const radioButtons = document.querySelectorAll('input[name="size"]');
+        btn.addEventListener("click", () => {
+            let selectedSize;
+            for (const radioButton of radioButtons) {
+                if (radioButton.checked) {
+                    selectedSize = radioButton.value;
+                    break;
+                }
+            }
+            // show the output:
+            output.innerText = selectedSize ? `You selected ${selectedSize}` : `You haven't selected any size`;
+        });
+    </script>
+</body>
+</html>
 
         <div class="flex flex-wrap items-center justify-center">
           <div class="w-full md:w-1/2 lg:w-1/3">
