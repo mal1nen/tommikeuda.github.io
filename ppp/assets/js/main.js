@@ -174,7 +174,7 @@
     });
 
     // show number of correct answers out of total
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length} Olet täydellinen nörtti`;
   }
 
   const quizContainer = document.getElementById('quiz');
@@ -200,12 +200,12 @@
       correctAnswer: "c"
     },
     {
-      question: "Which tool can you use to ensure code quality?",
+      question: "Mikä on tärkeintä sinulle?",
       answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
+        a: "Kaverit",
+        b: "Koulu",
+        c: "Raha",
+        d: "Pelaaminen"
       },
       correctAnswer: "d"
     }
