@@ -191,11 +191,11 @@
       correctAnswer: "c"
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question: "Missä tykkäät työskennellä",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "Toimistolla",
+        b: "ulkona",
+        c: "Nörttiluolassa"
       },
       correctAnswer: "c"
     },
