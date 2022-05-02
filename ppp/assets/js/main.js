@@ -194,7 +194,7 @@
       question: "Missä tykkäät työskennellä",
       answers: {
         a: "Toimistolla",
-        b: "ulkona",
+        b: "Ulkona",
         c: "Nörttiluolassa"
       },
       correctAnswer: "c"
