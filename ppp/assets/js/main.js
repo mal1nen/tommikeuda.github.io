@@ -182,11 +182,11 @@
   const submitButton = document.getElementById('submit');
   const myQuestions = [
     {
-      question: "Who invented JavaScript?",
+      question: "Mistä tykkäät eniten?",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich"
+        a: "Numeroista",
+        b: "Mummoista",
+        c: "Tietokoneista"
       },
       correctAnswer: "c"
     },
