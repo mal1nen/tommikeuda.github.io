@@ -1540,7 +1540,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-body-color{
   --tw-text-opacity: 1;
-  color: rgb(255 255 255/ var(--tw-text-opacity));
+  color: rgb(0,181,226/ var(--tw-text-opacity));
 }
 
 .text-white{
