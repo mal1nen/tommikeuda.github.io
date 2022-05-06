@@ -445,7 +445,7 @@ function showScores() {
 
 // create questions here
 var questions = [
-  new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "XHTML","CSS", "HTML"], "HTML"),
+  new Question("Mikä eläin olet?", ["Kala", "Lehmä","Koira", "Mammutti"], "Mammutti"),
   new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
   new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery","Django", "NodeJS"], "Django"),
   new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
