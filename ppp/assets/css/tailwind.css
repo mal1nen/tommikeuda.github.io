@@ -1579,7 +1579,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-black{
   --tw-text-opacity: 1;
-  color: rgb(33 43 54 / var(--tw-text-opacity));
+  color: rgb(173 216 230 / var(--tw-text-opacity));
 }
 
 .text-\[\#fbb040\]{
