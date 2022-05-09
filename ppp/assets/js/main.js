@@ -182,32 +182,7 @@
   const submitButton = document.getElementById('submit');
   const myQuestions = [
     {
-      question: "Mistä tykkäät eniten?",
-      answers: {
-        a: "Numeroista",
-        b: "Mummoista",
-        c: "Tietokoneista"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "Missä tykkäät työskennellä",
-      answers: {
-        a: "Toimistolla",
-        b: "Ulkona",
-        c: "Nörttiluolassa"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "Mikä on tärkeintä sinulle?",
-      answers: {
-        a: "Kaverit",
-        b: "Koulu",
-        c: "Raha",
-        d: "Pelaaminen"
-      },
-      correctAnswer: "d"
+     
     }
   ];
 
